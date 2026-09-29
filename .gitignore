@@ -1,0 +1,36 @@
+# Env / secrets
+.env
+.env.*
+!.env.example
+
+# Google OAuth credential files (config is read from .env; never commit these)
+client_secret*.json
+credentials.json
+token.json
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+
+# Databases
+*.db
+*.sqlite3
+
+# Node
+node_modules/
+dist/
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

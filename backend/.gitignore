@@ -1,0 +1,31 @@
+# Env / secrets
+.env
+.env.*
+!.env.example
+
+# Google OAuth credential files (config is read from .env; never commit these)
+client_secret*.json
+credentials.json
+token.json
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+
+# Databases (meeting_ai.db is created on startup)
+*.db
+*.sqlite3
+
+# Logs
+*.log
+logs/
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
